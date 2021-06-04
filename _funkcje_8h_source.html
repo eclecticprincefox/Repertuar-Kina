@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Repertuar Kina: Plik źródłowy Funkcje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Repertuar Kina
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Funkcje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_funkcje_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef FUNKCJE_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define FUNKCJE_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="film_8h.html">film.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="struct_lista.html">Lista</a>* <a class="code" href="_funkcje_8h.html#a0516ed5f9c941167b92a73d6c1247f23">stworzListe</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<a class="code" href="struct_film.html">Film</a> *<a class="code" href="_funkcje_8h.html#a70b75b778f589a080c601ceaef08e70d">stworzFilm</a>(<span class="keywordtype">string</span> nazwa,<span class="keywordtype">string</span> gatunek, <span class="keywordtype">string</span> dlugosc, <a class="code" href="struct_film.html">Film</a> *nastepny);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<a class="code" href="struct_film.html">Film</a> * <a class="code" href="_funkcje_8h.html#ad7c0b2d715aa64a57fd4d01ef72d5c94">dodajPo</a>(<a class="code" href="struct_film.html">Film</a> *film_ptr, <span class="keywordtype">string</span> film, <span class="keywordtype">string</span> gatunek, <span class="keywordtype">string</span>  dlugosc);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#ab88c9a2fd33cc5c71d2a781ff1c2dd92">dodajNaKoncu</a>(<a class="code" href="struct_lista.html">Lista</a> *lista, <span class="keywordtype">string</span> nazwa,<span class="keywordtype">string</span> gatunek, <span class="keywordtype">string</span>  dlugosc);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#af83837a6f3b48c059c43c5cf072a4854">wyczyscListe</a>(<a class="code" href="struct_film.html">Film</a> *adr);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#af83837a6f3b48c059c43c5cf072a4854">wyczyscListe</a>(<a class="code" href="struct_lista.html">Lista</a> *lista);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#af550f1a8c64436dfaef3072d03de910f">drukuj</a>(<a class="code" href="struct_film.html">Film</a>* adr);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#aead395bd85e7d103d3ab83fe6f928647">plikuj</a>(<a class="code" href="struct_film.html">Film</a>* adr);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#abe4c83c59c0201a7178b027d23bc4731">wczytajListe</a>(<a class="code" href="struct_lista.html">Lista</a>* lista);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#a04c9107dfb37f64eb7760c0add34b02a">wczytajzpliku</a>(<a class="code" href="struct_lista.html">Lista</a>* lista);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_funkcje_8h.html#a6acb6592586ec1fcd5348460d5fc2a69">sprawdzaniegodziny</a>(<span class="keywordtype">double</span> aktualnagodzina, <a class="code" href="struct_film.html">Film</a>* film);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="keywordtype">double</span> <a class="code" href="_funkcje_8h.html#a671a9e48492b3bc84806d1f833471233">wyborfilmu</a>(<span class="keywordtype">double</span> aktualnagodzina, <a class="code" href="struct_film.html">Film</a>* film, <span class="keywordtype">string</span> nowa_sala);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keywordtype">double</span> <a class="code" href="_funkcje_8h.html#a1aeb0fee5fba1b0957b774130943cabb">dodajprzerwe</a>(<span class="keywordtype">double</span> aktualnagodzina, <span class="keywordtype">string</span> nowa_sala);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_funkcje_8h.html#ad4f854db7a883ddd2bd5f733430a3154">wczytajzsali</a>(<span class="keywordtype">string</span> nazwa_sali);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// FUNKCJE_H</span></div>
+<div class="ttc" id="a_funkcje_8h_html_a04c9107dfb37f64eb7760c0add34b02a"><div class="ttname"><a href="_funkcje_8h.html#a04c9107dfb37f64eb7760c0add34b02a">wczytajzpliku</a></div><div class="ttdeci">void wczytajzpliku(Lista *lista)</div><div class="ttdoc">Funkcja wczytująca z pliku.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:145</div></div>
+<div class="ttc" id="a_funkcje_8h_html_a0516ed5f9c941167b92a73d6c1247f23"><div class="ttname"><a href="_funkcje_8h.html#a0516ed5f9c941167b92a73d6c1247f23">stworzListe</a></div><div class="ttdeci">Lista * stworzListe()</div><div class="ttdoc">Funkcja towrząca liste.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:13</div></div>
+<div class="ttc" id="a_funkcje_8h_html_a1aeb0fee5fba1b0957b774130943cabb"><div class="ttname"><a href="_funkcje_8h.html#a1aeb0fee5fba1b0957b774130943cabb">dodajprzerwe</a></div><div class="ttdeci">double dodajprzerwe(double aktualnagodzina, string nowa_sala)</div><div class="ttdoc">Funkcja dodająca przerwę</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:251</div></div>
+<div class="ttc" id="a_funkcje_8h_html_a671a9e48492b3bc84806d1f833471233"><div class="ttname"><a href="_funkcje_8h.html#a671a9e48492b3bc84806d1f833471233">wyborfilmu</a></div><div class="ttdeci">double wyborfilmu(double aktualnagodzina, Film *film, string nowa_sala)</div><div class="ttdoc">Funkcja pozwalająca na wybór filmu.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:196</div></div>
+<div class="ttc" id="a_funkcje_8h_html_a6acb6592586ec1fcd5348460d5fc2a69"><div class="ttname"><a href="_funkcje_8h.html#a6acb6592586ec1fcd5348460d5fc2a69">sprawdzaniegodziny</a></div><div class="ttdeci">bool sprawdzaniegodziny(double aktualnagodzina, Film *film)</div><div class="ttdoc">Funkacja sprawdza czy film można dopisać do repertuaru sali.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:160</div></div>
+<div class="ttc" id="a_funkcje_8h_html_a70b75b778f589a080c601ceaef08e70d"><div class="ttname"><a href="_funkcje_8h.html#a70b75b778f589a080c601ceaef08e70d">stworzFilm</a></div><div class="ttdeci">Film * stworzFilm(string nazwa, string gatunek, string dlugosc, Film *nastepny)</div><div class="ttdoc">Funkcja tworząca nowy film.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:24</div></div>
+<div class="ttc" id="a_funkcje_8h_html_ab88c9a2fd33cc5c71d2a781ff1c2dd92"><div class="ttname"><a href="_funkcje_8h.html#ab88c9a2fd33cc5c71d2a781ff1c2dd92">dodajNaKoncu</a></div><div class="ttdeci">void dodajNaKoncu(Lista *lista, string nazwa, string gatunek, string dlugosc)</div><div class="ttdoc">Funkcja przenosi utowrzony film na konieć listy.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:54</div></div>
+<div class="ttc" id="a_funkcje_8h_html_abe4c83c59c0201a7178b027d23bc4731"><div class="ttname"><a href="_funkcje_8h.html#abe4c83c59c0201a7178b027d23bc4731">wczytajListe</a></div><div class="ttdeci">void wczytajListe(Lista *lista)</div><div class="ttdoc">Funkcja wcztyująca nowy film.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:116</div></div>
+<div class="ttc" id="a_funkcje_8h_html_ad4f854db7a883ddd2bd5f733430a3154"><div class="ttname"><a href="_funkcje_8h.html#ad4f854db7a883ddd2bd5f733430a3154">wczytajzsali</a></div><div class="ttdeci">void wczytajzsali(string nazwa_sali)</div><div class="ttdoc">Funkcja wczytująca salę z repertuarem.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:302</div></div>
+<div class="ttc" id="a_funkcje_8h_html_ad7c0b2d715aa64a57fd4d01ef72d5c94"><div class="ttname"><a href="_funkcje_8h.html#ad7c0b2d715aa64a57fd4d01ef72d5c94">dodajPo</a></div><div class="ttdeci">Film * dodajPo(Film *film_ptr, string film, string gatunek, string dlugosc)</div><div class="ttdoc">Funkcja dodaje kolejny film do listy.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:40</div></div>
+<div class="ttc" id="a_funkcje_8h_html_aead395bd85e7d103d3ab83fe6f928647"><div class="ttname"><a href="_funkcje_8h.html#aead395bd85e7d103d3ab83fe6f928647">plikuj</a></div><div class="ttdeci">void plikuj(Film *adr)</div><div class="ttdoc">Funkcja zapiasywaia do Pliku.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:99</div></div>
+<div class="ttc" id="a_funkcje_8h_html_af550f1a8c64436dfaef3072d03de910f"><div class="ttname"><a href="_funkcje_8h.html#af550f1a8c64436dfaef3072d03de910f">drukuj</a></div><div class="ttdeci">void drukuj(Film *adr)</div><div class="ttdoc">Funkcja drukująca liste filmów.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:87</div></div>
+<div class="ttc" id="a_funkcje_8h_html_af83837a6f3b48c059c43c5cf072a4854"><div class="ttname"><a href="_funkcje_8h.html#af83837a6f3b48c059c43c5cf072a4854">wyczyscListe</a></div><div class="ttdeci">void wyczyscListe(Film *adr)</div><div class="ttdoc">Funkcja pomocnicza do wyczyscliste.</div><div class="ttdef"><b>Definition:</b> Funkcje.cpp:68</div></div>
+<div class="ttc" id="afilm_8h_html"><div class="ttname"><a href="film_8h.html">film.h</a></div><div class="ttdoc">Plik nagłówkowy modułu tworzącego liste filmów(Funkcje)</div></div>
+<div class="ttc" id="astruct_film_html"><div class="ttname"><a href="struct_film.html">Film</a></div><div class="ttdoc">Element tworzenia repertuaru Kina.</div><div class="ttdef"><b>Definition:</b> film.h:21</div></div>
+<div class="ttc" id="astruct_lista_html"><div class="ttname"><a href="struct_lista.html">Lista</a></div><div class="ttdoc">Element tworzenia listy jednokerunkowej.</div><div class="ttdef"><b>Definition:</b> film.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
